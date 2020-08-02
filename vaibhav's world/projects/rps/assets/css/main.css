@@ -1,0 +1,53 @@
+.btn{
+	border-radius: 50%;
+	border-color: transparent;
+}
+.logo{
+	width: 70px;
+	height: 70px;
+}
+.output{
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 40px;
+}
+.jumbotron {
+	text-align: center;
+}
+div.jumbotron div.container p.lead{
+	font-style: italic;
+	font-size: large;
+}
+.scoreboard{
+	display: flex;
+	align-items: center;
+}
+
+div.container div.scoreboard div.disp{
+	margin: auto;
+	display: inherit;
+	align-items: center;
+}
+.typestyle{
+	font-style: revert;
+    color: crimson;
+    margin: 10px;
+}
+
+.container{
+	display: block;
+	width: 100%;
+}
+
+.row{
+	display: flex;
+	color: white;
+}
+
+[class*="col-"]{
+	padding: 4px 4px;
+	background-color: lightgrey;
+	display: block;
+	text-align: center;
+}
